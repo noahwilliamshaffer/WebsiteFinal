@@ -77,7 +77,7 @@ export default function About() {
               As <span className="text-slate-200 font-medium">Co-Founder &amp; Founding Cybersecurity Engineer at Aurepath</span>,
               I architect Zero Trust controls into an AI SaaS platform from day one. At Lockridge Cybersecurity LLC,
               I built ML-driven threat detection achieving 95%+ accuracy against BEC and credential phishing.
-              At Curvature Securities, I protect regulated financial market data under SEC Reg SCI and FINRA Rule 4370.
+              At Glacier Peak Capital, I protect regulated financial market data under SEC Reg SCI and FINRA Rule 4370.
             </motion.p>
 
             <motion.p

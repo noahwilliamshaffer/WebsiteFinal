@@ -55,7 +55,7 @@ const jobs = [
     ],
   },
   {
-    company: 'Curvature Securities',
+    company: 'Glacier Peak Capital',
     role: 'Security Engineer',
     period: 'Aug 2023 – Present',
     location: 'Financial Services',
