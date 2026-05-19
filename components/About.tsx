@@ -6,7 +6,7 @@ import { MapPin, GraduationCap, Briefcase, ExternalLink } from 'lucide-react'
 const highlights = [
   { icon: MapPin, label: 'Location', value: 'Tallahassee, FL' },
   { icon: GraduationCap, label: 'Degree', value: 'M.S. Cybersecurity — USD (Expected Aug 2026)' },
-  { icon: Briefcase, label: 'Current', value: 'Founding Engineer @ Aurepath · Security Eng @ Curvature Securities' },
+  { icon: Briefcase, label: 'Current', value: 'Founding Engineer @ Aurepath · Security Eng @ Glacier Peak Capital' },
 ]
 
 const terminalLines = [
