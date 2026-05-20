@@ -38,7 +38,7 @@ export default function Footer() {
             </div>
             <div>
               <p className="text-sm font-semibold text-slate-200">Noah Shaffer</p>
-              <p className="text-[0.68rem] text-slate-600 font-mono">CISSP · Cybersecurity Engineer</p>
+              <p className="text-[0.68rem] text-slate-600 font-mono">Associate of (ISC)² · Cybersecurity Engineer</p>
             </div>
           </div>
 

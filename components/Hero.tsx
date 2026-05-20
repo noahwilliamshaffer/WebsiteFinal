@@ -81,7 +81,7 @@ export default function Hero() {
           className="inline-flex items-center gap-2 px-4 py-1.5 mb-7 rounded-full bg-cyan-500/8 border border-cyan-500/18 text-cyan-400 text-xs font-mono tracking-wide"
         >
           <Shield size={13} />
-          CISSP · (ISC)² Certified Cybersecurity Engineer
+          Associate of (ISC)² · CISSP Exam Passed · Working Toward Full Certification
           <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
         </motion.div>
 

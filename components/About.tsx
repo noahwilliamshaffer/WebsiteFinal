@@ -61,7 +61,7 @@ export default function About() {
               custom={1}
               className="text-slate-300 text-[1.02rem] leading-relaxed"
             >
-              I&apos;m a <span className="text-cyan-400 font-medium">CISSP-certified Cybersecurity Engineer</span> with
+              I&apos;m a <span className="text-cyan-400 font-medium">Cybersecurity Engineer and Associate of (ISC)²</span> — I passed the CISSP exam and am accruing the 5 years of experience required for full certification. I have
               hands-on experience securing AWS-native SaaS platforms, regulated financial systems,
               and ML pipelines processing <span className="text-cyan-400 font-medium">2M+ events per day</span>.
             </motion.p>

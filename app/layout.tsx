@@ -17,7 +17,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'Noah Shaffer | Cybersecurity Engineer',
   description:
-    'CISSP-certified Cybersecurity Engineer specializing in AWS-native security architecture, DevSecOps, ML-driven threat intelligence, and Zero Trust. Founding Engineer at Aurepath.',
+    'Cybersecurity Engineer and Associate of (ISC)² — passed the CISSP exam, accruing experience toward full certification. Specializing in AWS-native security, DevSecOps, ML threat intelligence, and Zero Trust. Founding Engineer at Aurepath.',
   keywords: [
     'cybersecurity engineer',
     'CISSP',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     url: 'https://noahwilliamshaffer.com',
     title: 'Noah Shaffer | Cybersecurity Engineer',
     description:
-      'CISSP-certified Cybersecurity Engineer — AWS security, DevSecOps, ML threat intelligence, Zero Trust architecture.',
+      'Cybersecurity Engineer, Associate of (ISC)² — CISSP exam passed, AWS security, DevSecOps, ML threat intelligence, Zero Trust.',
     siteName: 'Noah Shaffer',
     images: [
       {

@@ -7,14 +7,14 @@ const certs = [
   {
     name: 'CISSP',
     full: 'Certified Information Systems Security Professional',
-    issuer: '(ISC)²',
-    status: 'Active',
+    issuer: '(ISC)² — Associate',
+    status: 'Exam Passed',
     active: true,
     accent: '#f59e0b',
     bg: 'bg-amber-500/6',
     border: 'border-amber-500/22',
     hover: 'hover:border-amber-500/50 hover:shadow-[0_0_24px_rgba(245,158,11,0.1)]',
-    desc: 'The gold standard in cybersecurity certification, validating expertise across all 8 CISSP security domains.',
+    desc: 'Passed the CISSP examination — currently an Associate of (ISC)² accruing the required 5 years of professional security experience toward full certification.',
     domains: ['Security & Risk Mgmt', 'Asset Security', 'Security Architecture', 'Network Security', 'IAM', 'Assessment & Testing', 'Security Ops', 'Software Dev Security'],
   },
   {
@@ -96,13 +96,18 @@ export default function Certifications() {
                     >
                       {cert.name}
                     </span>
-                    {cert.active ? (
+                    {cert.status === 'Active' ? (
                       <span className="flex items-center gap-1 text-[0.62rem] font-mono text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2 py-0.5 rounded-full">
                         <BadgeCheck size={10} />
                         Active
                       </span>
-                    ) : (
+                    ) : cert.status === 'Exam Passed' ? (
                       <span className="flex items-center gap-1 text-[0.62rem] font-mono text-amber-400 bg-amber-500/10 border border-amber-500/20 px-2 py-0.5 rounded-full">
+                        <BadgeCheck size={10} />
+                        Exam Passed
+                      </span>
+                    ) : (
+                      <span className="flex items-center gap-1 text-[0.62rem] font-mono text-slate-400 bg-slate-500/10 border border-slate-500/20 px-2 py-0.5 rounded-full">
                         <Clock size={10} />
                         In Progress
                       </span>
